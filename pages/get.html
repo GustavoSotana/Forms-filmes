@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Consultar filmes</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../css/get.css" />
+        <script src="../js/get.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Lista de filmes</h1>
+            <p>Prática com método GET: buscar e exibir os filmes da API do codeverse</p>
+        </header>
+       <main>
+    <a href="../index.html">Ir para o cadastro</a>
+    <section id="container-titulo-lista">
+        <h2 id="titulo-lista">Filmes cadastrados</h2>
+        <p>Os filmes são carregados automaticamente ao iniciar a página.</p>
+        <p id="resposta"></p>
+        <ul id="lista-filmes"></ul>
+    </section>
+</main>
+
+<template id="modelo-filme">
+    <li>
+        <section class="card-capa">
+            <img alt="" />
+        </section>
+                <section class="card-conteudo">
+            <h3 class="nome"></h3>
+            <p><strong>Gênero:</strong><span class="Gênero"> </span></p>
+            <p><strong>ano:</strong><span class="ano"> </span></p>
+            <p><strong>diretor:</strong><span class="diretor"> </span></p>
+        </section>
+    </li>
+</template>
+</body>
+</html>
