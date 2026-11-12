@@ -59,7 +59,7 @@ button {
 
 
 #lista-filmes li {
-  flex: 0 1 300px;
+  flex: 1 1 380px;
   min-width: 0;
   background-color: #eff6ff;
   border: 1px solid #bfdbfe;
@@ -68,7 +68,7 @@ button {
 
 
 .card-capa {
-  height: 220px;
+  height: 380px;
   background-color: #dbeafe;
 }
 
@@ -100,9 +100,12 @@ button {
   color: #172554;
 }
 
+
 footer {
-  background-color: #546081;
+  background-color: #1d4ed8; 
   color: white;
   text-align: center;
   padding: 20px;
+  width: 100%;
+  margin-top: auto; 
 }

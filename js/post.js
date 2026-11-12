@@ -29,8 +29,9 @@ form.addEventListener("submit", async function (event) {
       title: dados.get("title"),
       diretor: dados.get("diretor"),
       ano: dados.get("ano"),
-      fraqueza: dados.get("genero"),
-      imageUrl: dados.get("imageUrl") || null
+      genero: dados.get("genero"),
+      imageUrl: dados.get("imageUrl") || null,
+      nota: Number(dados.get("nota")),
   }
 
   resposta.textContent = "Enviando filme para a API....";

@@ -31,10 +31,10 @@ async function buscarFilmes() {
       const card = modelo.content.cloneNode(true);
 
       card.querySelector(".nome").textContent = filme.title;
-      card.querySelector(".Gênero").textContent = filme.Gênero;
+      card.querySelector(".genero").textContent = filme.genero;
       card.querySelector(".ano").textContent = filme.ano;
       card.querySelector(".diretor").textContent = filme.diretor;
-
+      card.querySelector(".nota").textContent = filme.nota;
       const imagem = card.querySelector("img");
 
       if(filme.imageUrl){
